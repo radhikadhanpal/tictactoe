@@ -1,18 +1,12 @@
 ﻿   
-// Program: CSE 210 Tic Tac Toe Example
-// Author: Brother Burton
+
 
 using System;
 using System.Collections.Generic;
 
 namespace cse210_student_csharp_tictactoe_complete
 {
-    /// <summary>
-    /// This is a sample solution of the Tic Tac Toe program. It is not a
-    /// particularly sophisticated or elegant solution to the problem, but
-    /// rather it highlights a straightforward way to solve the problem
-    /// for a 3x3 game.
-    /// </summary>
+    
     class Program
     {
         static void Main(string[] args)
@@ -34,9 +28,7 @@ namespace cse210_student_csharp_tictactoe_complete
             Console.WriteLine("Good game. Thanks for playing!");
         }
 
-        /// <summary>
-        /// Gets a new instance of the board with the numbers 1-9 in place.
-        /// </summary>
+       
         /// <returns>A list of 9 strings representing each square.</returns>
         static List<string> GetNewBoard()
         {
@@ -50,9 +42,7 @@ namespace cse210_student_csharp_tictactoe_complete
             return board;
         }
 
-        /// <summary>
-        /// Displays the board in a 3x3 grid.
-        /// </summary>
+       
         /// <param name="board">The board</param>
         static void DisplayBoard(List<string> board)
         {
